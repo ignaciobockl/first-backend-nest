@@ -11,6 +11,9 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   ignorePatterns: ['.eslintrc.js', 'dist/**', 'node_modules/**'],
+  linterOptions: {
+    noInlineConfig: true,
+  },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
