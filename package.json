@@ -1,6 +1,6 @@
 {
-  "name": "myfirstappnestjs",
-  "version": "0.0.1",
+  "name": "template-nestjs",
+  "version": "0.0.2",
   "description": "",
   "author": "Ignacio Bockl",
   "private": true,
