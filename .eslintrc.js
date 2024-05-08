@@ -10,8 +10,13 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
-  ignorePatterns: ['.eslintrc.js', 'dist/**', 'node_modules/**'],
-
+  ignorePatterns: [
+    'commitlint.config.ts',
+    '.husky/**',
+    'config/**',
+    'dist/**',
+    'node_modules/**',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
@@ -62,7 +67,7 @@ module.exports = {
     'arrow-body-style': ['warn', 'as-needed'],
     'block-scoped-var': 'error',
     camelcase: 'error',
-    complexity: ['warn', 5],
+    // complexity: ['warn', 5],
     complexity: ['error', 8],
     'consistent-return': 'error',
     'default-case-last': 'error',
